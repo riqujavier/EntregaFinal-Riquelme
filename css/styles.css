@@ -1,0 +1,48 @@
+body {
+    background-color: #F5BACE;
+    font-family: 'Roboto', sans-serif;
+    color: #685044;
+    margin: 0;
+}
+header {
+    background-color: #38AECC;
+    color: #81D2C7;
+    text-align: center;
+    position: sticky;
+    top: 0;
+
+}
+header img {
+    width: 150px;
+    display: block;
+    
+}
+header ul {
+    padding-bottom: 10px;
+}
+section {
+    padding: 20px;
+    text-align: center
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+.formulario label {
+    display: block;
+}
+footer {
+
+    padding-top: 20px;
+    height: 100px;
+    background-color: #3A405A;
+    padding-left: 10px;
+
+}
+.articulo-principal{
+    padding: 20px;
+    text-align: center;
+    
+}
