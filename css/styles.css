@@ -13,13 +13,15 @@ header {
 
 }
 header img {
-    width: 150px;
+    width: 100px;
     display: block;
+    padding: 0;
     
 }
-header ul {
-    padding-bottom: 10px;
-}
+
+
+  
+
 section {
     padding: 20px;
     text-align: center
@@ -45,4 +47,9 @@ footer {
     padding: 20px;
     text-align: center;
     
+}
+
+.carousel-item img{
+    height: 500px;
+    margin: 0 auto;
 }
