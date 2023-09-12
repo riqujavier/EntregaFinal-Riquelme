@@ -5,8 +5,6 @@ body {
     margin: 0;
 }
 header {
-    background-color: #38AECC;
-    color: #81D2C7;
     text-align: center;
     position: sticky;
     top: 0;
@@ -20,7 +18,14 @@ header img {
 }
 
 
-  
+.custom-navbar-bg {
+    background-color: #9D9171;
+    
+} 
+.custom-navbar-bg a {
+   
+    color: #ffffff;
+}
 
 section {
     padding: 20px;
