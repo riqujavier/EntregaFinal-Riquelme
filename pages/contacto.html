@@ -4,39 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <img src="../img/messi-logo-png.png" alt="Logo de Marca Messi">
-        <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="carrera.html">Historia</a></li>
-            <li><a href="goles.html">Mejores Goles</a></li>
-            <li><a href="mundial.html">Mundial 2022</a></li>
-            <li><a href="contacto.html">Enviale un mensaje</a></li>
-        </ul>
-    </header>
-    <section class="formulario">
-        <img src="../img/messi-blink.jpg" alt="Messi guiñando el ojo">
-        <h1>Envia un mensaje al Leo</h1>
-        <form action="POST">
-            <label for="nombre">Nombre</label>
-            <input type="text">
-            <label for="correo">Correo</label>
-            <input type="email" name="" id="correo">
-            <label for="pregunta">¿Cual es tu mejor recuerdo de Leo?</label>
-            <input type="text">
-            <label for="mensaje">Enviale un mensaje para dar tu apoyo!</label>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-            <input type="submit" value="Enviar">
-        </form>
-    </section>
-    <footer>
-        <p>Esta página es sin fines de lucro, unicamente con fines didacticos.</p>
-    </footer>
+    <div class="container-fluid">
+        <header>
+            <nav class="navbar navbar-expand-lg  custom-navbar-bg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="../img/messi-logo2.png" alt="Logo de Marca Messi" width="50px" max-width="30px" class="d-inline-block align-text-top">
+                    
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link "  href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="carrera.html">Historia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="goles.html">Mejores Goles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"  href="mundial.html">Mundial 2022</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"  href="contacto.html">Enviale un mensaje</a>
+                        </li>
+                        </ul>
+                    </div>
+                    </div>
+                </nav>
+        </header>
+        <section class="formulario">
+            <img src="../img/messi-blink.jpg" alt="Messi guiñando el ojo">
+            <h1>Envia un mensaje al Leo</h1>
+            <form action="POST">
+                <label for="nombre">Nombre</label>
+                <input type="text">
+                <label for="correo">Correo</label>
+                <input type="email" name="" id="correo">
+                <label for="pregunta">¿Cual es tu mejor recuerdo de Leo?</label>
+                <input type="text">
+                <label for="mensaje">Enviale un mensaje para dar tu apoyo!</label>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+        <footer>
+            <p>Esta página es sin fines de lucro, unicamente con fines didacticos.</p>
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-instagram"></i>
+        </footer>
+    </div>
 </body>
 </html>

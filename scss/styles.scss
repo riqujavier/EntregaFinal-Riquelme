@@ -29,6 +29,14 @@
 
 
 }
+img{
+    border-radius: 10px;
+    margin: 2rem;
+    
+}
+.carrera-img img {
+    max-width: 400px;
+}
 
 
 body {
@@ -108,7 +116,11 @@ footer i{
 }
 
 .carousel-item img{
-    height: 500px;
+    max-height: 500px;
+    margin: 0 auto;
+}
+.carousel-item iframe{
+    max-height: 500px;
     margin: 0 auto;
 }
 

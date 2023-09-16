@@ -4,32 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mejores goles</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <img src="../img/messi-logo-png.png" alt="Logo de Marca Messi">
-        <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="carrera.html">Historia</a></li>
-            <li><a href="goles.html">Mejores Goles</a></li>
-            <li><a href="mundial.html">Mundial 2022</a></li>
-            <li><a href="contacto.html">Enviale un mensaje</a></li>
-        </ul>
-        
-        <section>
-        </header>
-        <h1>Mejores goles de su carrera</h1>
-        <h2>Inter de Miami vs Dallas</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/6gbrNrMGqb8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <h2>Final del Mundo Argentina vs Francia</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/4840rkjCstc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </section>
-    <footer>
-        <p>Esta página es sin fines de lucro, unicamente con fines didacticos.</p>
-    </footer>
+    <div class="container-fluid">
+        <header>
+            <nav class="navbar navbar-expand-lg  custom-navbar-bg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="../img/messi-logo2.png" alt="Logo de Marca Messi" width="50px" max-width="30px" class="d-inline-block align-text-top">
+                    
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link "  href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="carrera.html">Historia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="goles.html">Mejores Goles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"  href="mundial.html">Mundial 2022</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"  href="contacto.html">Enviale un mensaje</a>
+                        </li>
+                        </ul>
+                    </div>
+                    </div>
+                </nav>
+            
+            <section>
+            </header>
+            <h1>Mejores goles de su carrera</h1>
+            <div id="carouselGol" class="carousel slide w-70">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/6gbrNrMGqb8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="d-block w-100"></iframe>
+                    </div>
+                    <div class="carousel-item">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/owBwegzx5ks?si=LDISsXc-SAz1VrG0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="d-block w-100"></iframe>
+                    </div>
+                    <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                </div>
+
+           
+            </section>
+            <footer>
+                <p>Esta página es sin fines de lucro, unicamente con fines didacticos.</p>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-instagram"></i>
+            </footer>
+    </div>
 </body>
 </html>
