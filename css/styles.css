@@ -1,81 +1,81 @@
+@charset "UTF-8";
 @media (max-width: 576px) {
-    /* Estilos para pantallas móviles */
+  /* Estilos para pantallas móviles */
 }
 @media (min-width: 577px) and (max-width: 1024px) {
-    /* Estilos para tablets y pantallas medianas */
+  /* Estilos para tablets y pantallas medianas */
 }
 @media (min-width: 1025px) {
-    /* Estilos para pantallas grandes (escritorios) */
+  /* Estilos para pantallas grandes (escritorios) */
 }
-
-
-
 body {
-    background-color: #F5BACE;
-    font-family: 'Roboto', sans-serif;
-    color: #685044;
-    margin: 0;
+  background-color: #F5BACE;
+  font-family: "Roboto", sans-serif;
+  color: #685044;
+  margin: 0;
 }
+
 header {
-    text-align: center;
-    position: sticky;
-    top: 0;
-
+  text-align: center;
+  position: sticky;
+  top: 0;
 }
+
 header img {
-    width: 100px;
-    display: block;
-    padding: 0;
-    
+  width: 100px;
+  display: block;
+  padding: 0;
 }
-
 
 .custom-navbar-bg {
-    background-color: #9D9171;
-    
-} 
+  background-color: #9D9171;
+}
+
 .custom-navbar-bg a {
-   
-    color: #ffffff;
+  color: #ffffff;
 }
 
 section {
-    padding: 20px;
-    text-align: center
+  padding: 20px;
+  text-align: center;
 }
+
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
+
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
+
 .formulario label {
-    display: block;
+  display: block;
 }
-iframe{
-    border-radius: 10px;
+
+iframe {
+  border-radius: 10px;
 }
+
 footer {
-
-    padding-top: 20px;
-    line-height: 25px;
-    height: 100px;
-    background-color: #3A405A;
-    padding-left: 10px;
-
-}
-footer i{
-    padding-right: 1rem;
-    
-    
-}
-.articulo-principal{
-    padding: 20px;
-    text-align: center;
-    
+  padding-top: 20px;
+  line-height: 25px;
+  height: 100px;
+  background-color: #3A405A;
+  padding-left: 10px;
 }
 
-.carousel-item img{
-    height: 500px;
-    margin: 0 auto;
+footer i {
+  padding-right: 1rem;
 }
+
+.articulo-principal {
+  padding: 20px;
+  text-align: center;
+}
+
+.carousel-item img {
+  height: 500px;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=styles.css.map */
