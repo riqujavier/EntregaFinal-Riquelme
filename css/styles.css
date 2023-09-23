@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @media (min-width: 768px) {
   body {
     font-size: 1.2rem;
@@ -63,6 +64,7 @@ header img {
 
 .custom-navbar-bg {
   background-color: #9D9171;
+  z-index: 1000;
 }
 
 .custom-navbar-bg a {
@@ -80,10 +82,6 @@ a {
 
 ul {
   list-style-type: none;
-}
-
-.formulario label {
-  display: block;
 }
 
 iframe {
@@ -135,6 +133,28 @@ footer i {
 .video iframe {
   width: 100%;
   height: 100%;
+}
+
+.formulario {
+  max-width: 900px; /* Ancho del contenedor del formulario */
+  margin: 0 auto; /* Centra el contenedor en la página */
+  border: 1px solid #c017a4; /* Borde del recuadro */
+  padding: 20px; /* Espacio interno dentro del recuadro */
+}
+.formulario img {
+  max-width: 400px;
+  margin: 20px;
+}
+
+form {
+  display: block;
+}
+
+/* Alinea las etiquetas y los campos de entrada a la izquierda */
+label, input {
+  display: block;
+  margin-bottom: 10px; /* Espacio entre etiqueta y campo de entrada */
+  text-align: left;
 }
 
 /*# sourceMappingURL=styles.css.map */
