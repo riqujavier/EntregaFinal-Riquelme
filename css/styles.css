@@ -135,15 +135,19 @@ footer i {
   height: 100%;
 }
 
+/* FORMULARIO */
 .formulario {
-  max-width: 900px; /* Ancho del contenedor del formulario */
+  width: 400px; /* Ancho del contenedor del formulario */
   margin: 0 auto; /* Centra el contenedor en la página */
   border: 1px solid #c017a4; /* Borde del recuadro */
   padding: 20px; /* Espacio interno dentro del recuadro */
+  border-radius: 10px;
 }
-.formulario img {
-  max-width: 400px;
-  margin: 20px;
+.formulario textarea, .formulario input {
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 10px;
 }
 
 form {
@@ -151,10 +155,24 @@ form {
 }
 
 /* Alinea las etiquetas y los campos de entrada a la izquierda */
-label, input {
+label {
   display: block;
   margin-bottom: 10px; /* Espacio entre etiqueta y campo de entrada */
   text-align: left;
+}
+
+.img-form {
+  padding-top: 40px;
+  width: 200px;
+  z-index: -1;
+}
+.img-form :hover {
+  transform: scale(1, 2);
+  transform: rotate(-40deg);
+}
+.img-form img {
+  width: 100%;
+  border-radius: 300px;
 }
 
 /*# sourceMappingURL=styles.css.map */
