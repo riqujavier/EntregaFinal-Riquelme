@@ -131,11 +131,6 @@ footer i {
   margin: 0 auto;
 }
 
-.carousel-item iframe {
-  max-height: 500px;
-  margin: 0 auto;
-}
-
 .carrusel {
   z-index: -1;
 }
@@ -217,6 +212,13 @@ label {
   display: grid;
   column-gap: 1.3rem;
   row-gap: 1rem;
+}
+
+/* Carrusel de goles */
+.carousel {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
