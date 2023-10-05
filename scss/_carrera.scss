@@ -1,0 +1,40 @@
+
+/* imagenes de carrera grid */
+@mixin galeria-grid{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    column-gap: 1.3rem;
+    row-gap: 1rem;
+}
+
+.imagen{
+    width: 100%;
+    
+    
+    img{
+        width: 100%;
+        
+        
+    }
+    p {
+        padding-top: 1rem;
+    }
+}
+
+.galeria{
+    @include galeria-grid;
+}
+
+/* Carrusel de goles */
+.carousel {
+    max-width: 800px;
+    margin: 0 auto; 
+    padding: 2rem;
+}
+.mundial {
+    iframe {
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+}

@@ -1,0 +1,32 @@
+@mixin flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.carousel-item img{
+    max-height: 500px;
+    margin: 0 auto;
+}
+
+.carrusel {
+    z-index: -1;
+}
+
+.row {
+    padding: 2rem;
+}
+.video-container {
+    @include flex-wrap;
+}
+
+.video {
+    flex: 1;
+    max-width: calc(33.33% - 20px);
+}
+
+
+.video iframe {
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,48 @@
+
+/* FORMULARIO */
+.formulario {
+    max-width: 400px;
+    min-width: 200px;
+    width: 100%; /* Ancho del contenedor del formulario */
+    margin: 0 auto; /* Centra el contenedor en la página */
+    border: 1px solid #c017a4; /* Borde del recuadro */
+    padding: 15px; /* Espacio interno dentro del recuadro */
+    border-radius: 10px;
+    
+    textarea,input  {
+        display: block;
+        max-width: 186px;
+        width: 100%;
+        text-align: center;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+}
+
+form {
+    display: block;
+}
+
+  /* Alinea las etiquetas y los campos de entrada a la izquierda */
+label{
+    display: block;
+    margin-bottom: 10px; /* Espacio entre etiqueta y campo de entrada */
+    text-align: left;
+}
+.img-form {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 200px;
+    
+    z-index: -1;
+    :hover{
+        transform: scale(1,2);
+        transform: rotate(-40deg);
+    }
+    
+    img {
+        width: 100%;
+        border-radius: 300px;
+
+    }
+}

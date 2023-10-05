@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* %VARIABLES */
 @media (min-width: 100px) {
   .galeria {
     grid-template-columns: repeat(1, 1fr);
@@ -73,24 +74,6 @@ header {
   top: 0;
 }
 
-header img {
-  width: 100px;
-  display: block;
-  padding: 0;
-}
-
-.custom-navbar-bg {
-  background-color: #9D9171;
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.custom-navbar-bg a {
-  color: #ffffff;
-}
-
 section {
   padding: 20px;
   text-align: center;
@@ -126,6 +109,24 @@ footer i {
   z-index: -1;
 }
 
+header img {
+  width: 100px;
+  display: block;
+  padding: 0;
+}
+
+.custom-navbar-bg {
+  background-color: #9D9171;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.custom-navbar-bg a {
+  color: #ffffff;
+}
+
 .carousel-item img {
   max-height: 500px;
   margin: 0 auto;
@@ -157,14 +158,18 @@ footer i {
 
 /* FORMULARIO */
 .formulario {
-  width: 400px; /* Ancho del contenedor del formulario */
+  max-width: 400px;
+  min-width: 200px;
+  width: 100%; /* Ancho del contenedor del formulario */
   margin: 0 auto; /* Centra el contenedor en la página */
   border: 1px solid #c017a4; /* Borde del recuadro */
-  padding: 20px; /* Espacio interno dentro del recuadro */
+  padding: 15px; /* Espacio interno dentro del recuadro */
   border-radius: 10px;
 }
 .formulario textarea, .formulario input {
   display: block;
+  max-width: 186px;
+  width: 100%;
   text-align: center;
   border-radius: 5px;
   margin-bottom: 10px;
@@ -182,7 +187,8 @@ label {
 }
 
 .img-form {
-  padding-top: 40px;
+  padding-top: 20px;
+  padding-bottom: 10px;
   width: 200px;
   z-index: -1;
 }
