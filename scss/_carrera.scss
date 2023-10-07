@@ -17,6 +17,9 @@
         
         
     }
+    iframe {
+        width: 100%;
+    }
     p {
         padding-top: 1rem;
     }
@@ -36,5 +39,7 @@
     iframe {
         margin-bottom: 2rem;
         margin-top: 2rem;
+        min-width: 90vh;
+       min-height: 400px;
     }
 }

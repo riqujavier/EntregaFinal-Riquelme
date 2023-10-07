@@ -134,6 +134,7 @@ header img {
 
 .carrusel {
   z-index: -1;
+  min-width: 200px;
 }
 
 .row {
@@ -208,6 +209,9 @@ label {
 .imagen img {
   width: 100%;
 }
+.imagen iframe {
+  width: 100%;
+}
 .imagen p {
   padding-top: 1rem;
 }
@@ -230,6 +234,8 @@ label {
 .mundial iframe {
   margin-bottom: 2rem;
   margin-top: 2rem;
+  min-width: 90vh;
+  min-height: 400px;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -4,13 +4,22 @@
     gap: 20px;
 }
 
-.carousel-item img{
-    max-height: 500px;
-    margin: 0 auto;
+
+.carousel-item {
+    
+    img {
+        max-height: 500px;
+        margin: 0 auto;
+        
+
+    }
 }
+
 
 .carrusel {
     z-index: -1;
+    min-width: 200px;
+    
 }
 
 .row {
