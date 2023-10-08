@@ -1,6 +1,16 @@
 /* %VARIABLES */
 $rosa-inter: #F5BACE;
 $font-desktop:1.4rem;
+$zindex-dropdown:                   1000;
+$zindex-sticky:                     1020;
+$zindex-fixed:                      1030;
+$zindex-offcanvas-backdrop:         1040;
+$zindex-offcanvas:                  1045;
+$zindex-modal-backdrop:             1050;
+$zindex-modal:                      1055;
+$zindex-popover:                    1070;
+$zindex-tooltip:                    1080;
+$zindex-toast:                      1090;
 
 @media (min-width:100px){
     .galeria{
@@ -73,6 +83,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    
     
 
 }

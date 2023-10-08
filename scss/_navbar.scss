@@ -9,14 +9,14 @@ header img {
 
 .custom-navbar-bg {
     background-color: #9D9171;
-    position: sticky;
+    position: relative;
     top: 0;
-    z-index: 100;
+    z-index: zindex-sticky ;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    a {
+
+        color: #ffffff;
+    }
     
 } 
 
-.custom-navbar-bg a {
-
-    color: #ffffff;
-}

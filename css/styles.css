@@ -117,12 +117,11 @@ header img {
 
 .custom-navbar-bg {
   background-color: #9D9171;
-  position: sticky;
+  position: relative;
   top: 0;
-  z-index: 100;
+  z-index: zindex-sticky;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
 .custom-navbar-bg a {
   color: #ffffff;
 }
@@ -131,10 +130,13 @@ header img {
   max-height: 500px;
   margin: 0 auto;
 }
+.carousel-item iframe {
+  z-index: 0; /* Un valor más bajo que el del navbar */
+}
 
-.carrusel {
+.carrito {
+  padding-top: 60px;
   z-index: -1;
-  min-width: 200px;
 }
 
 .row {
@@ -182,10 +184,6 @@ header img {
 .boton {
   background-color: #c017a4;
   transition: background-color 0.3s;
-}
-.boton :hover {
-  background-color: #ffc107;
-  height: 35px;
 }
 
 form {
@@ -236,11 +234,19 @@ label {
   row-gap: 1rem;
 }
 
+.goles p {
+  padding-top: 10px;
+  padding-bottom: 0;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
 /* Carrusel de goles */
 .carousel {
   max-width: 800px;
   margin: 0 auto;
   padding: 2rem;
+  z-index: -1;
 }
 
 .mundial iframe {

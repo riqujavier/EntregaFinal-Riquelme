@@ -13,14 +13,17 @@
         
 
     }
+    iframe {
+        z-index: 0; /* Un valor más bajo que el del navbar */
+      }
 }
 
 
-.carrusel {
+.carrito {
+   padding-top: 60px;
     z-index: -1;
-    min-width: 200px;
-    
 }
+
 
 .row {
     padding: 2rem;
