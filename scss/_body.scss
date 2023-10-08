@@ -51,6 +51,7 @@ $zindex-toast:                      1090;
     .galeria{
         grid-template-columns: repeat(3, 1fr);
     }
+   
 
 }
 * {
@@ -68,6 +69,7 @@ img{
 }
 img:hover{
     transform: scale(1.1);
+
 } 
 
 
@@ -99,7 +101,7 @@ header {
 }
 
 section {
-    padding: 20px;
+    
     text-align: center
 }
 a {
@@ -115,10 +117,12 @@ iframe{
 footer {
 
     padding-top: 20px;
+    padding-bottom: 20px;
     line-height: 25px;
     height: 100px;
     background-color: #3A405A;
     padding-left: 10px;
+    
 
 }
 footer i{

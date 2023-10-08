@@ -46,9 +46,10 @@
 }
 .mundial {
     iframe {
-        margin-bottom: 2rem;
-        margin-top: 2rem;
-        min-width: 90vh;
+        padding: 1rem;
+        min-width: 30vh;
+        max-width: 90vh ;
         min-height: 400px;
+        margin: 0 auto;
     }
 }
